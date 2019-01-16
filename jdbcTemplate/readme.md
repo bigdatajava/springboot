@@ -1,9 +1,11 @@
-### springboot-async异步使用
+### springboot-jdbcTemplate
 
 
 ## 注释说明
-实现异步-主要有以下几个要素：
+```
+spring.datasource.url=jdbc:mysql://localhost:3306/test
+spring.datasource.username=root
+spring.datasource.password=root
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
 
-。启动加上 @EnableAsync ,需要执行异步方法上加入 @Async
-
-。在方法上加上@Async之后 底层使用多线程技术
+```
