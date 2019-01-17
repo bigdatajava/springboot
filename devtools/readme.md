@@ -44,4 +44,7 @@ pom.xml中引用spring-boot-devtools
 3）勾选 compiler.automake.allow.when.app.running 即可
 ```
 
+#### 总结
+使用热部署的目的是-测试开发代码时方便快捷，提高开发效率。 
+但也会造成内存消耗大，因为热部署相当于不停的重启。所以生产上是不推荐使用热部署的。
 
